@@ -4,7 +4,8 @@
     box-sizing: border-box;
     }
     body{
-        background-color: #bd6f6f;
+        background-color: #c91c1c
+        ;
     font-family: "Poppins", sans-serif;
     }
     header{
@@ -45,12 +46,17 @@
     justify-content: center;
     }
     .estudante_titulo{
-    padding: 50px;
+color: white;
+    background-color: rgb(116, 0, 0);
+    padding: 40px;
     text-align: center;
+    font-size: 300%;
+
     
     }
     .estudante-nome{
     text-align: center;
+    color:white;
     }
     .estudante-imagem{
     width: 120px;
@@ -83,6 +89,7 @@
     display:block;
     }
     .escola-titulo{
+    color: white;
     padding: 50px;
     text-align: center;
     }
@@ -93,6 +100,6 @@
     }
     
     .link{
-    color: rgb(109, 109, 109);
+    color: rgb(240, 96, 96);
     text-decoration: none;
     }
