@@ -48,9 +48,10 @@
     .estudante_titulo{
 color: white;
     background-color: rgb(116, 0, 0);
-    padding: 40px;
+    padding: 20px;
     text-align: center;
-    font-size: 300%;
+    font-size: 350%;
+    letter-spacing: 40px;
 
     
     }
