@@ -66,16 +66,15 @@ color: white;
     }
     .estudante-icone{
     width: 38px;
-    padding: 4px 8px;
+  
     }
     .estudante{
     background-image: background-color(#faae43);
-    padding:300px 0;
+  padding-top: 50px;
     }
     
     .estudante.div{
     text-align: center;
-    padding: 24px 0;
     background: (CCCCCC);
     }
     .estudantes_todos{
@@ -93,7 +92,6 @@ color: white;
     }
     .escola-titulo{
     color: white;
-    padding: 50px;
     text-align: center;
     }
     .logo_rodape{
@@ -116,6 +114,10 @@ color: white;
     .titulo-sobremim{
         text-align: center;
         font-size: 300%;
-        background-image:
-        border-radius: 30px 30px 30px 30px;
+    }
+    iframe{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 150px;
     }
