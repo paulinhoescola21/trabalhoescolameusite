@@ -36,14 +36,14 @@
     color: rgb(116, 0, 0);
     }
     .sociais{
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    padding-right: 3%;
+        display: flex;
+        justify-content: space-around;
+
     }
     .banner1{
     display: flex;
     justify-content: center;
+    width: 100%;
     }
     .estudante_titulo{
     color: white;
@@ -69,12 +69,21 @@
   
     }
     .estudante{
-    background-image:(#faae43);
-    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    }
+    #video{
+        display: flex;
+        height: 25%;
+        margin-left:15%;
     }
     
     .estudante.div{
     text-align: center;
+    display: flex;
+    flex-direction: row;
     background: red;
     }
     .estudantes_todos{
@@ -144,3 +153,31 @@
         display:flex;
         
     }
+
+    h2, p {
+        margin: 10px;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #e65959;
+      }
+      
+      ul li {
+        float: left;
+      }
+      
+      ul li a {
+        display: block;
+        color: rgb(202, 70, 70);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      ul li a:hover {
+        background-color: #e70000;
+      }
