@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: #faf7f7
+        ;
+    font-family: "Poppins", sans-serif;
+    }
+    header{
+    background-image: linear-gradient(#ec0000,#9b0000);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    }
+    .cabecalho-itens{
+
+    max-width: 1980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .cabecalho-imagem{
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+    .titulo_site{
+    padding: 60px;
+    text-align: center;
+    width: 50%;
+    font-size: 360%;
+    color: rgb(116, 0, 0);
+    }
+    .sociais{
+        display: flex;
+        justify-content: space-around;
+
+    }
+ 
+    .video{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    height: auto;
+    margin-left: 1px;
+    }
+    
+
+    iframe {
+        display:flex;
+        
+    }
+
+    h2, p {
+        margin: 10px;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #e65959;
+        border-radius:10px;
+      }
+      
+      ul li {
+        float: left;
+      }
+      
+      ul li a {
+        display: block;
+        color: rgb(105, 37, 37);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      ul li a:hover {
+        background-color: #803131;
+      }
+      iframe{
+        margin-left:35%;
+      }
