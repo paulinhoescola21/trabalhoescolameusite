@@ -135,7 +135,7 @@
     justify-content: end;
     width: 30%;
     height: auto;
-    right: 20px;
+    margin-left: 1px;
     }
     .guardar.video {
         display:flex;
@@ -164,6 +164,7 @@
         padding: 0;
         overflow: hidden;
         background-color: #e65959;
+        border-radius:10px;
       }
       
       ul li {
@@ -172,12 +173,15 @@
       
       ul li a {
         display: block;
-        color: rgb(202, 70, 70);
+        color: rgb(105, 37, 37);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
       }
       
       ul li a:hover {
-        background-color: #e70000;
+        background-color: #803131;
+      }
+      iframe{
+        margin-left:35%;
       }
