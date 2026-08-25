@@ -4,9 +4,8 @@
     box-sizing: border-box;
     }
     body{
-        background-color: #faf7f7
-        ;
-    font-family: "Poppins", sans-serif;
+        background-color: #faf7f7;
+        font-family:sans-serif
     }
     header{
     background-image: linear-gradient(#ec0000,#9b0000);
@@ -43,9 +42,11 @@
     .banner1{
     display: flex;
     justify-content: center;
-    width: 800px;
-    height:495px;
-    margin-left:29%;
+    width: 490px;
+    height:490px;
+    margin-left:37%;
+
+
     }
     .estudante_titulo{
     color: white;
@@ -165,7 +166,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #e65959;
+        background-color: #ebe9e9;
         border-radius:10px;
       }
       
@@ -175,15 +176,25 @@
       
       ul li a {
         display: block;
-        color: rgb(105, 37, 37);
+        color: rgb(0, 0, 0);
         text-align: center;
-        padding: 14px 16px;
+        padding: 14px 15px;
         text-decoration: none;
       }
       
       ul li a:hover {
-        background-color: #803131;
+        color: white;
+        background-color:#000000
       }
       iframe{
         margin-left:35%;
+      }
+      #button2{
+        background-image: url(logo.png);
+        height: 50px;
+        width: 7%;
+      }
+      #button2:hover{
+        background-color:#000000;
+        background-image: url(logo2.png);
       }
