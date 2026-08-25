@@ -43,7 +43,9 @@
     .banner1{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 800px;
+    height:495px;
+    margin-left:29%;
     }
     .estudante_titulo{
     color: white;
