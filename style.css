@@ -178,7 +178,7 @@
         display: block;
         color: rgb(0, 0, 0);
         text-align: center;
-        padding: 14px 15px;
+        padding: 14px 12px;
         text-decoration: none;
       }
       
@@ -197,4 +197,9 @@
       #button2:hover{
         background-color:#000000;
         background-image: url(logo2.png);
+      }
+      #paulooo{
+        margin-left:0;
+        height:1000px;
+        width: 1930px;
       }
